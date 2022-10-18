@@ -1,0 +1,10 @@
+Document: ruby-http-connection-doc
+Title: Documentation of the http_connection library
+Author: RightScale, Inc
+Abstract: This API documentation is generated with RDOC from the source of
+ http_connection, HTTP helper library for Ruby.
+Section: Programming/Ruby
+
+Format: HTML
+Index: /usr/share/doc/ruby-http-connection/rdoc/index.html
+Files: /usr/share/doc/ruby-http-connection/rdoc/*

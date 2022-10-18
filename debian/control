@@ -1,0 +1,26 @@
+Source: ruby-http-connection
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Praveen Arimbrathodiyil <praveen@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.15~)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-http-connection.git
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-http-connection.git;a=summary
+Homepage: http://github.com/appoxy/http_connection/
+XS-Ruby-Versions: all
+
+Package: ruby-http-connection
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter,
+ libjs-jquery
+Description: HTTP helper library for Ruby
+ Rightscale::HttpConnection is a robust HTTP/S library.  It implements 
+ a retry algorithm for low-level network errors.
+ .
+ Features:
+  - provides put/get streaming
+  - does configurable retries on connect and read timeouts, 
+    DNS failures, etc.
+  - HTTPS certificate checking

@@ -1,0 +1,41 @@
+ruby-http-connection (1.4.4-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 03:21:26 +0100
+
+ruby-http-connection (1.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release 
+  * debian/control
+    - set Standards-Version: 3.9.6
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 18 Oct 2014 07:52:56 +0900
+
+ruby-http-connection (1.4.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/rules
+    - remove unnecessary removing jquery.js line to fix FTBFS
+      (Closes: #761569)
+    - remove "--inline-source " option, it is deprecated: source code is now
+      always inlined
+    - rdoc --fmt darkfish, instead of html
+    - remove invalid option, --fileboxes
+
+ -- Hideki Yamane <henrich@debian.org>  Wed, 24 Sep 2014 23:12:38 +0900
+
+ruby-http-connection (1.4.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Override missing changelog lintian message
+
+ -- Praveen Arimbrathodiyil <praveen@debian.org>  Sat, 17 Nov 2012 01:49:51 +0530
+
+ruby-http-connection (1.4.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #675952)
+
+ -- Praveen Arimbrathodiyil <praveen@debian.org>  Mon, 04 Jun 2012 18:32:40 +0530
